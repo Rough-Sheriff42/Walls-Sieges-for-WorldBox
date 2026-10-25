@@ -1,0 +1,70 @@
+{
+    "WallsSieges": [
+        {
+            "Id": "ws_camps",
+            "Type": "SWITCH",
+            "Callback": "HelloWorld.ConfigCallbacks:OnCamps",
+            "BoolVal": true
+        },
+        {
+            "Id": "ws_coast",
+            "Type": "SWITCH",
+            "Callback": "HelloWorld.ConfigCallbacks:OnCoast",
+            "BoolVal": true
+        },
+        {
+            "Id": "ws_gates",
+            "Type": "SWITCH",
+            "Callback": "HelloWorld.ConfigCallbacks:OnGates",
+            "BoolVal": true
+        },
+        {
+            "Id": "ws_moat",
+            "Type": "SWITCH",
+            "Callback": "HelloWorld.ConfigCallbacks:OnMoat",
+            "BoolVal": true
+        },
+        {
+            "Id": "ws_decay",
+            "Type": "SWITCH",
+            "Callback": "HelloWorld.ConfigCallbacks:OnDecay",
+            "BoolVal": true
+        },
+        {
+            "Id": "ws_news",
+            "Type": "SWITCH",
+            "Callback": "HelloWorld.ConfigCallbacks:OnNews",
+            "BoolVal": true
+        },
+        {
+            "Id": "ws_horn",
+            "Type": "SWITCH",
+            "Callback": "HelloWorld.ConfigCallbacks:OnHorn",
+            "BoolVal": true
+        },
+        {
+            "Id": "ws_wall_share",
+            "Type": "SLIDER",
+            "Callback": "HelloWorld.ConfigCallbacks:OnWallShare",
+            "FloatVal": 30,
+            "MinFloatVal": 0,
+            "MaxFloatVal": 100
+        },
+        {
+            "Id": "ws_gate_hp",
+            "Type": "SLIDER",
+            "Callback": "HelloWorld.ConfigCallbacks:OnGateHp",
+            "FloatVal": 900,
+            "MinFloatVal": 300,
+            "MaxFloatVal": 3000
+        },
+        {
+            "Id": "ws_reload",
+            "Type": "SLIDER",
+            "Callback": "HelloWorld.ConfigCallbacks:OnReload",
+            "FloatVal": 4,
+            "MinFloatVal": 2,
+            "MaxFloatVal": 10
+        }
+    ]
+}
