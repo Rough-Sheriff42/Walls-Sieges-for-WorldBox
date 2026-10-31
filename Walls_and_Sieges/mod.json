@@ -1,8 +1,8 @@
 {
     "name": "Walls & Sieges",
     "author": "Rough_Sheriff42",
-    "version": "1.0.0",
-    "description": "Cities build walls, gates, moats and towers. Armies set up siege camps with catapults and trebuchets and batter the gates and walls.",
-    "iconPath": "icon_shield.png",
-    "RepoUrl": "https://github.com/Rough_Sheriff42/Walls-and-Sieges"
+    "version": "1.3.0",
+    "description": "Cities build walls, gates, moats and towers. Armies set up siege camps with catapults and trebuchets and batter the gates and walls. In 3D, thanks to the Worldfall mod (worldfall3d.com) and its author, who made first-person WorldBox possible.",
+    "iconPath": "icon_square.png",
+    "RepoUrl": "https://github.com/Rough-Sheriff42/Walls-Sieges-for-WorldBox"
 }

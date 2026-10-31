@@ -1,0 +1,22 @@
+# Walls & Sieges: custom sounds. Format: event = file1.wav, file2.wav (random pick). WAV PCM 8/16/24 bit or float32.
+# Delete this file to use built-in defaults. Missing file = default game sound. Events with no files keep the game sound.
+# Impact events (where the shell lands): impact_rock (catapult), impact_ball (trebuchet); on a wall/gate hit_wall/hit_gate play instead.
+# Events: shot_catapult, shot_trebuchet, hit_wall, hit_gate, wall_collapse, gate_destroyed, gate_close, gate_open, alarm, horn, tower_collapse (not used yet)
+shot_catapult = catapult.wav, catapult2.wav
+shot_trebuchet = trebuchet_shot.wav
+hit_wall = wall_hit_1.wav, stone_hit.wav
+hit_gate = stone_hit.wav
+impact_rock = boom5.wav
+impact_ball = boom1.wav
+shot_mortar = boom3.wav
+impact_mortar = boom4.wav, boom2.wav
+wall_collapse = wall_collapse_1.wav, boom2.wav
+gate_destroyed = gatesfall.wav, boom3.wav
+gate_close = gate_close_1.wav, gate_close_2.wav
+gate_open = gate_open_1.wav
+alarm = belltoll.wav
+horn = 
+tower_collapse = boom4.wav
+
+ram_creak = ram_creak_1.wav, ram_creak_2.wav
+ram_bash = ram_bash_1.wav, ram_bash_2.wav, ram_bash_3.wav
